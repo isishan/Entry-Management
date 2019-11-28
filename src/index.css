@@ -116,3 +116,25 @@ form p{
   padding-left: 15px;
   
 }
+
+.navbar{
+  background-color: white;
+  
+}
+
+.navBtn{
+  padding: 10px 16px;
+  margin: 10px;
+  /* width:98%; */
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  /* border: none; */
+}
+
+.navBrand{
+  /* float:left; */
+  padding: 25px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 30px;
+}

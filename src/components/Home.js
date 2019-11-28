@@ -8,14 +8,29 @@ const CSS2={
     'width': '95%'
 }
 
+const CSSL={
+    'float': 'left'
+}
+
+const CSSR={
+    'float': 'right'
+}
+
+const CSSflex={
+    'dispaly': 'flex',
+    'align-items': 'centre',
+    'flex-direction': 'column',
+    'flex-wrap': 'wrap'
+}
+
 class Home extends Component{
 
     
 
     render(){
         return(
-            <div>
-                <div class="modal-content">
+            <div >
+                <div class="modal-content" >
                     <div class="modal-header">
                         {/* <span id="close" onclick="closeit()" class="close">&times;</span> */}
                         <p style={CSS}>Welcome</p>
@@ -41,6 +56,8 @@ class Home extends Component{
                         <button class="button3">Sign Up</button>
                     </form>
                 </div>
+
+               
             </div>
         )
     }
